@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+
+    <!--Style-->
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header class="header">
+        <h1>Welcome to My Registration Form</h1>
+    </header>
+
+    <main>
+        <h2>Contact Me Form:</h2>
+    </main>
+
+    <form action="" class="main_form" id="mainForm">
+
+    <!--First Name-->
+    
+    <div class="main_form_field">
+        <label for="firstname" class="main_form_field_label">First Name:</label>
+        <input type="text" id="firstname" class="main_form_field_input" required>
+    </div>
+
+    <!--Last Name-->
+
+    <div class="main_form_field">
+        <label for="lastname" class="main_form_field_label">Last Name:</label>
+        <input type="text" id="lastname" class="main_form_field_input" required>
+    </div>
+    
+    <!--Email-->
+
+    <div class="main_form_field">
+        <label for="email" class="main_form_field_label">Email:</label>
+        <input type="email" id="email" class="main_form_field_input" required>
+    </div>
+
+    <!--Password-->
+
+    <div class="main_form_field">
+        <label for="password" class="main_form_field_label">Password:</label>
+        <input type="password" id="password" class="main_form_field_input" required>
+    </div>
+
+    <!--Birthdate-->
+
+    <div class="main_form_field">
+        <label for="birthday" class="main_form_field_label">Birthdate:</label>
+        <input type="date" id="birthday" class="main_form_field_input" required>
+    </div>
+
+    <!--Interests-->
+
+    <div class="main_form_field">
+        <label for="interests" class="main_form_field_label">Interests:</label>
+            <label></label><input type="checkbox" id="music" name="interests" value="music">Music</label><br>
+            <label></label><input type="checkbox" id="sports" name="interests" value="sports">Sports</label><br>
+            <label></label><input type="checkbox" id="reading" name="interests" value="reading"></label><br>
+    </div>
+    <button type="submit" class="main_form_submit">Submit</button>
+    </form>
+
+    <div id="output"></div>
+
+    <!--Javascript-->
+
+    <script src="./main.js"></script>
+</body>
+</html>
