@@ -46,7 +46,7 @@
 
     <div class="main_form_field">
         <label for="password" class="main_form_field_label">Password:</label>
-        <input type="password" id="password" class="main_form_field_input" required>
+        <input type="password" id="password" class="main_form_field_input" required minlength="6">
     </div>
 
     <!--Birthdate-->
@@ -59,11 +59,13 @@
     <!--Interests-->
 
     <div class="main_form_field">
-        <label for="interests" class="main_form_field_label">Interests:</label>
-            <label></label><input type="checkbox" id="music" name="interests" value="music">Music</label><br>
-            <label></label><input type="checkbox" id="sports" name="interests" value="sports">Sports</label><br>
-            <label></label><input type="checkbox" id="reading" name="interests" value="reading"></label><br>
+        <p class="main_form_field_label">Interests:</p>
+        <label><input type="checkbox" name="interests" value="music"> Music</label><br>
+        <label><input type="checkbox" name="interests" value="sports"> Sports</label><br>
+        <label><input type="checkbox" name="interests" value="reading"> Reading</label><br>
     </div>
+
+
     <button type="submit" class="main_form_submit">Submit</button>
     </form>
 

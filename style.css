@@ -52,8 +52,8 @@ h2 {
     transition: all 0.3s;
 }
 
-.main_form_submit:hover {
-    tranform: scale(1.05);
+.main_form_submit.main_form_submit:hover {
+    transform: scale(1.05);
 }
 
 .main_form_submit:active {

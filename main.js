@@ -33,7 +33,6 @@ outputDiv.innerHTML = `
     <p>My first name is: ${firstnameInput.value}</p>
     <p>My last name is: ${lastnameInput.value}</p>
     <p>My email is: ${emailInput.value}</p>
-    <p>My password is: ${passwordInput.value}</p>
     <p>My birthday is: ${birthdayInput.value}</p>
     <p>My interests are: ${interests.length > 0 ? interests.join(", ") : "None selected"}</p>
   `;
